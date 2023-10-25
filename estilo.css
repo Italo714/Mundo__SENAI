@@ -1,0 +1,424 @@
+/* Estilo Global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  /* INICIO REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+  .titulo {
+  margin: 20px 0 80px;
+  text-align: center;
+}
+
+.conteudo {
+    display: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+
+body {
+    background-color: #FFF;
+    color: #000;
+}
+
+.conteudo.pequeno {
+    display:block
+}
+
+header {
+    position: fixed;
+    background-color: #0077b6;
+    z-index: 10;
+    width: 100vw;
+
+}
+
+.conteudo.pequeno.container-topo {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo {
+    width: 30VW;
+}
+
+.conteudo.pequeno.container-link {
+    min-width: 30%;
+}
+
+.conteudo.pequeno.link {
+    color: #FFF;
+    text-decoration: none;
+    margin: auto;
+    text-align: left;
+}
+
+
+/*---inicio---*/
+
+.conteudo.pequeno.intro {
+    padding-top: 10%;
+}
+
+.conteudo.pequeno.container-tracos {
+    display: flex; 
+    width: 20vw;
+    margin: 5vw auto;
+
+}
+
+.conteudo.pequeno.tracosP {
+    width: 5vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.pequeno.tracosG {
+    width: 10vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.pequeno h1 {
+    width: 70vw;
+    margin: auto;
+    font-size: 5vw;
+    margin-bottom: 5vw;
+}
+
+.conteudo.pequeno.paragrafo {
+    width: 70vw;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+}
+
+.conteudo.pequeno.paragrafo.branco {
+    width: 70vw;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+    color: #FFF;
+}
+
+.conteudo.pequeno.container-fotos {
+    height: 92vw;
+}
+
+.conteudo.pequeno.absolute {
+    position: absolute;
+}
+
+.conteudo.pequeno.fotos {
+    width: 50vw;
+}
+
+.conteudo.pequeno.fotos.senai2 {
+    top: 75vw;
+    left: 30vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.fotos.senai1 {
+    top: 90vw;
+    left: 15vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.bolinhas.azul {
+    z-index: 1;
+    right: 0;
+    top: 80vw;
+    width: 70vw;
+}
+
+.conteudo.pequeno.container-links {
+    background-color: #023E8A;
+    height: 85vw;
+}
+
+.conteudo.pequeno.subtitulo {
+    color: #FFF;
+    padding-bottom: 15vw;
+    width: 70vw;
+    margin: auto;
+    font-size: 5vw;
+}
+
+.conteudo.pequeno.claro {
+    border-color: #0077b6;
+} 
+
+.conteudo.pequeno.container-tracos.padrão {
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.conteudo.pequeno.container-link.centro {
+    margin: auto;
+}
+
+.conteudo.pequeno.link.curso {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5vw;
+    font-size: 3vw;
+    width: 50vw;
+
+}
+
+.conteudo.pequeno.bolinhas.branco {
+    z-index: 1;
+    left: 0vw;
+    top: 180vw;
+    width: 30vw;
+}
+
+.conteudo.pequeno.preto {
+    color: #000;
+}
+
+.conteudo.pequeno.link-sobre {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #023E8A;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.pequeno.link-sobre.claro {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0077b6;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.pequeno.fundo {
+    background-color: #023E8A;
+}
+
+.conteudo.pequeno.absolute.fotos.eletrica2 {
+    top: 313vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.eletrica1 {
+    top: 327vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.ti1 {
+    top: 475vw;
+    left: 30vw;
+    z-index: 8;    
+}
+
+.conteudo.pequeno.absolute.fotos.ti2 {
+    top: 490vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.logistica2 {
+    top: 625vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.logistica1 {
+    top: 640vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.mecanica1 {
+    top: 768vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.mecanica2 {
+    top: 783vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.seguranca2 {
+    top: 935vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.seguranca1 {
+    top: 950vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+
+
+.conteudo.pequeno.bolinhas.eletrica {
+    z-index: 1;
+    right: 0;
+    top: 334.2vw;
+    width: 70vw;
+}
+
+.conteudo.pequeno.bolinhas.logistica {
+    z-index: 1;
+    right: 0;
+    top: 639vw;
+    width: 70vw;
+}
+
+.conteudo.pequeno.bolinhas.seguranca {
+    z-index: 1;
+    right: 0;
+    top: 952.2vw;
+    width: 70vw;
+}
+
+.conteudo.pequeno.absolute.bolinhas.ti {
+    z-index: 1;
+    left: 0;
+    top: 502vw;
+    width: 30vw;
+}
+
+.conteudo.pequeno.absolute.bolinhas.mecanica {
+    z-index: 1;
+    left: 0;
+    top: 804vw;
+    width: 30vw;
+}
+
+.conteudo.pequeno.contato {
+    background-color: #023E8A;
+    
+}
+.conteudo.pequeno.paragrafo.branco.centro {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+} 
+
+footer {
+    background-color: #bebebe;
+    height: 10vw;
+    align-items: center;
+}
+
+.conteudo.pequeno.seta img {
+    max-width: 10vw;
+    position: fixed;
+    bottom: 5vw;
+    right: 5vw;
+    z-index: 10;
+}
+
+.conteudo.pequeno.fim {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2.5vw;
+
+
+}
+
+.conteudo.pequeno.rodape {
+    display: flex;
+    margin: auto;
+}
+
+.conteudo.pequeno.rodape a {
+    margin-left: 2vw;
+}
+
+.conteudo.pequeno.paragrafo.branco.extendido {
+    padding-bottom: 10vw;
+}
+
+.conteudo.pequeno.contato.claro {
+    background-color: #fff;   
+}
+
+}
+
+.conteudo.pequeno.absolute.fotos.eletrica4 {
+    top: 210vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.eletrica3 {
+    top: 225vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.ti3 {
+    top: 530vw;
+    left: 30vw;
+    z-index: 8;    
+}
+
+.conteudo.pequeno.absolute.fotos.ti4 {
+    top: 545vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.logistica4 {
+    top: 850vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.logistica3 {
+    top: 865vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.mecanica3 {
+    top: 1170vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.mecanica4 {
+    top: 1185vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.pequeno.absolute.fotos.seguranca4 {
+    top: 1530vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.pequeno.absolute.fotos.seguranca3 {
+    top: 1545vw;
+    left: 15vw;
+    z-index: 9;
+}
