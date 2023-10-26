@@ -28,7 +28,7 @@ body {
     display:block
 }
 
-header {
+header.pequeno {
     position: fixed;
     background-color: #0077b6;
     z-index: 10;
@@ -338,7 +338,7 @@ img.logo {
     padding-bottom: 5vw;
 } 
 
-footer {
+footer.pequeno {
     background-color: #bebebe;
     height: 10vw;
     align-items: center;
@@ -502,7 +502,7 @@ footer {
       display:block
   }
   
-  header {
+  header.medio {
       position: fixed;
       background-color: #0077b6;
       z-index: 10;
@@ -811,7 +811,7 @@ footer {
     padding-bottom: 5vw;
 } 
 
-footer {
+footer.medio {
     background-color: #bebebe;
     height: 10vw;
     align-items: center;
