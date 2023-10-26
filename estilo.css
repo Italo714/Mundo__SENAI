@@ -479,3 +479,476 @@ footer {
 }
 
 }
+
+/* medio - INICIO REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+.titulo {
+    margin: 20px 0 80px;
+    text-align: center;
+  }
+  
+  .conteudo {
+      display: none;
+      text-align: center;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+  
+  body {
+      background-color: #FFF;
+      color: #000;
+  }
+  
+  .conteudo.medio {
+      display:block
+  }
+  
+  header {
+      position: fixed;
+      background-color: #0077b6;
+      z-index: 10;
+      width: 100vw;
+  
+  }
+  
+  .conteudo.medio.container-topo {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  img.logo {
+      width: 30vw;
+  }
+  
+  .conteudo.medio.container-link {
+      min-width: 30%;
+  }
+  
+  .conteudo.medio.link {
+      color: #FFF;
+      text-decoration: none;
+      margin: auto;
+      text-align: left;
+      font-weight: bold;
+  }
+
+/*---inicio--- medio*/
+
+.conteudo.medio.intro {
+    padding-top: 10%;
+}
+
+.conteudo.medio.container-tracos {
+    display: flex; 
+    width: 20vw;
+    margin: 5vw auto;
+
+}
+
+.conteudo.medio.tracosP {
+    width: 5vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.medio.tracosG {
+    width: 10vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.medio h1 {
+    width: 70vw;
+    margin: auto;
+    font-size: 5vw;
+    margin-bottom: 5vw;
+}
+
+.conteudo.medio.paragrafo {
+    width: 70vw;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+}
+
+.conteudo.medio.paragrafo.branco {
+    width: 70vw;
+    margin: auto;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+    color: #FFF;
+}
+
+.conteudo.medio.container-fotos.azul2 {
+    height: 60vh;
+    background: no-repeat bottom right;
+    background-image: url(img/icone/bola-azul2.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo.medio.container-fotos.branco2 {
+    height: 60vh;
+    background: no-repeat bottom left;
+    background-image: url(img/icone/bola-branca2.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo.medio.absolute {
+    position: absolute;
+}
+
+.conteudo.medio.absolute.fotos {
+    width: 50vw;
+}
+
+.conteudo.medio.absolute.fotos.senai2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.senai1 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.medio.bolinhas.azul {
+    z-index: 1;
+    right: 0;
+    bottom: 12%;
+    width: 70vw;
+}
+
+.conteudo.medio.container-links {
+    background-color: #023E8A;
+    height: 85vw;
+    border: #00f100;
+}
+
+.conteudo.medio.subtitulo {
+    color: #FFF;
+    padding-bottom: 15vw;
+    width: 70vw;
+    margin: auto;
+    font-size: 5vw;
+}
+
+.conteudo.medio.claro {
+    border-color: #0077b6;
+} 
+
+.conteudo.medio.container-tracos.padrão {
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.conteudo.medio.container-link.centro {
+    margin: auto;
+}
+
+.conteudo.medio.link.curso {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5vw;
+    font-size: 3vw;
+    width: 50vw;
+
+}
+
+.conteudo.medio.bolinhas.branco {
+    z-index: 1;
+    left: 0vw;
+    bottom: 0%;
+    width: 30vw;
+}
+
+.conteudo.medio.preto {
+    color: #000;
+}
+
+.conteudo.medio.link-sobre {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #023E8A;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.medio.link-sobre.claro {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0077b6;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.medio.fundo {
+    background-color: #023E8A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo.medio.absolute.fotos.eletrica2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.eletrica1 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.ti1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;    
+}
+
+.conteudo.medio.absolute.fotos.ti2 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.logistica2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.logistica1 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.mecanica1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.mecanica2 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.seguranca2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.seguranca1 {
+    margin-top: 20%;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+
+
+.conteudo.medio.bolinhas.eletrica {
+    z-index: 1;
+    right: 0;
+    top: 334.2vw;
+    width: 70vw;
+}
+
+.conteudo.medio.bolinhas.logistica {
+    z-index: 1;
+    right: 0;
+    top: 639vw;
+    width: 70vw;
+}
+
+.conteudo.medio.bolinhas.seguranca {
+    z-index: 1;
+    right: 0;
+    top: 952.2vw;
+    width: 70vw;
+}
+
+.conteudo.medio.absolute.bolinhas.ti {
+    z-index: 1;
+    left: 0;
+    top: 502vw;
+    width: 30vw;
+}
+
+.conteudo.medio.absolute.bolinhas.mecanica {
+    z-index: 1;
+    left: 0;
+    top: 804vw;
+    width: 30vw;
+}
+
+.conteudo.medio.contato {
+    background-color: #023E8A;
+    
+}
+.conteudo.medio.paragrafo.branco.centro {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5vw;
+} 
+
+footer {
+    background-color: #bebebe;
+    height: 10vw;
+    align-items: center;
+}
+
+.conteudo.medio.seta img {
+    max-width: 10vw;
+    position: fixed;
+    bottom: 5vw;
+    right: 5vw;
+    z-index: 10;
+}
+
+.conteudo.medio.fim {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2.5vw;
+
+
+}
+
+.conteudo.medio.rodape {
+    display: flex;
+    margin: auto;
+}
+
+.conteudo.medio.rodape a {
+    margin-left: 2vw;
+}
+
+.conteudo.medio.paragrafo.branco.extendido {
+    padding-bottom: 10vw;
+}
+
+.conteudo.medio.contato.claro {
+    background-color: #fff;   
+}
+
+
+
+.conteudo.medio.absolute.fotos.eletrica4 {
+    top: 210vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.eletrica3 {
+    top: 225vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.ti3 {
+    top: 530vw;
+    left: 30vw;
+    z-index: 8;    
+}
+
+.conteudo.medio.absolute.fotos.ti4 {
+    top: 545vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.logistica4 {
+    top: 850vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.logistica3 {
+    top: 865vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.mecanica3 {
+    top: 1170vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.mecanica4 {
+    top: 1185vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.medio.absolute.fotos.seguranca4 {
+    top: 1530vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.medio.absolute.fotos.seguranca3 {
+    top: 1545vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.medio.link-sobre.claro.bot-mec {
+    margin-bottom: 1.5vh;
+}
+
+.conteudo.medio.cursos.escuro{
+    background-color: #023E8A;
+    height: 240vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo.medio.container-fotos.azul3 {
+    height: 60vh;
+    background: no-repeat bottom right;
+    background-image: url(img/icone/bola-azul2.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo.medio.container-fotos.branco3 {
+    height: 100vw;
+    background: no-repeat bottom left;
+    background-image: url(img/icone/bola-branca2.png);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.conteudo.medio.dark{
+    background-color: #023E8A;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+}
