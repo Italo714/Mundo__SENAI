@@ -16,7 +16,7 @@
     display: none;
     text-align: center;
 }
-
+/* PEQUENO */
 @media only screen and (max-width: 480px) {
 
 body.pequeno {
@@ -955,6 +955,512 @@ footer.medio {
 
 .conteudo.medio.cursos.clarin {
     min-height: 1400px;
+}
+
+}
+
+
+
+/* medio - INICIO REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+
+  
+  .conteudo {
+      display: none;
+      text-align: center;
+  }
+  
+  @media only screen and (min-width: 1025px) {
+  
+  body.grande {
+      background-color: #FFF;
+      color: #000;
+  }
+  
+  .conteudo.grande {
+      display:block
+  }
+  
+  header.grande {
+      position: fixed;
+      background-color: #0077b6;
+      z-index: 10;
+      width: 100vw;
+  
+  }
+  
+  .conteudo.grande.container-topo {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  img.logo {
+      width: 10vw;
+  }
+  
+  .conteudo.grande.container-link {
+      min-width: 30%;
+  }
+  
+  .conteudo.grande.link {
+      color: #FFF;
+      text-decoration: none;
+      margin: auto;
+      text-align: right;
+      font-weight: bold;
+  }
+
+/*---inicio--- medio*/
+
+.conteudo.grande.intro.suba {
+    padding-top: 5%;
+}
+
+.conteudo.grande.intro {
+    min-height: 1100px;
+}
+
+.conteudo.grande.tudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo.grande.container-tracos {
+    display: flex; 
+    width: 16vw;
+    margin: 5vw auto;
+
+}
+
+.conteudo.grande.tracosP {
+    width: 5vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.grande.tracosG {
+    width: 10vw;
+    border: #023E8A solid;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.conteudo.grande.tudo {
+    width: 1024px;
+    margin: auto;
+
+}
+.conteudo.grande.texto {
+    width: 70%;
+    height: 250px;
+}
+
+.conteudo.grande h1 {
+    width: 60%;
+    margin: auto;
+    font-size: 2vw;
+    margin-bottom: 5vw;
+}
+
+.conteudo.grande.paragrafo {
+    width: 80%;
+    margin: auto;
+    font-size: 1.5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+}
+
+.conteudo.grande.paragrafo.branco {
+    color: #FFF;
+}
+
+.conteudo.grande.container-fotos.azul2 {
+    min-height: 600px;
+    width: 30%;
+    background: no-repeat bottom right;
+    background-image: url(img/icone/bola-azul2.png);
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.conteudo.grande.container-fotos.branco2 {
+    min-height: 600px;
+    width: 30%;
+    background: no-repeat bottom left;
+    background-image: url(img/icone/bola-branca2.png);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.conteudo.grande.absolute {
+    position: absolute;
+}
+
+.conteudo.grande.absolute.fotos {
+    width: 50vw;
+    max-width: 200px;
+}
+
+.conteudo.grande.absolute.fotos.senai2 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.senai1 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.grande.bolinhas.azul {
+    z-index: 1;
+    right: 0;
+    bottom: 12%;
+    width: 70vw;
+}
+
+.conteudo.grande.container-links {
+    background-color: #023E8A;
+
+}
+
+.conteudo.grande.subtitulo {
+    color: #FFF;
+    padding-bottom: 5vw;
+    width: 60%;
+    margin: auto;
+    font-size: 2vw;
+}
+
+.conteudo.grande.claro {
+    border-color: #0077b6;
+} 
+
+.conteudo.grande.container-tracos.padrão {
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.conteudo.grande.container-link.centro {
+    margin: auto;
+}
+
+.conteudo.grande.link.curso {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3vw;
+    font-size: 1.3vw;
+    width: 50vw;
+
+}
+
+.conteudo.grande.bolinhas.branco {
+    z-index: 1;
+    left: 0vw;
+    bottom: 0%;
+    width: 70vw;
+}
+
+.conteudo.grande.preto {
+    color: #000;
+}
+
+.conteudo.grande.link-sobre {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #023E8A;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.grande.link-sobre.claro {
+    padding: 2vw 4vw;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #0077b6;
+    border-radius: 50px;
+    margin: auto;
+    width: 30vw;
+}
+
+.conteudo.grande.fundo {
+    background-color: #023E8A;
+    min-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo.grande.absolute.fotos.eletrica2 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.eletrica1 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.ti1 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;    
+}
+
+.conteudo.grande.absolute.fotos.ti2 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.logistica2 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.logistica1 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.mecanica1 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.mecanica2 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.seguranca2 {
+    margin-top: 100px;
+    margin-left: 10%;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.seguranca1 {
+    margin-top: 150px;
+    margin-right: 10%;
+    z-index: 9;
+}
+
+
+
+.conteudo.grande.bolinhas.eletrica {
+    z-index: 1;
+    right: 0;
+    top: 334.2vw;
+    width: 70vw;
+}
+
+.conteudo.grande.bolinhas.logistica {
+    z-index: 1;
+    right: 0;
+    top: 639vw;
+    width: 70vw;
+}
+
+.conteudo.grande.bolinhas.seguranca {
+    z-index: 1;
+    right: 0;
+    top: 952.2vw;
+    width: 70vw;
+}
+
+.conteudo.grande.absolute.bolinhas.ti {
+    z-index: 1;
+    left: 0;
+    top: 502vw;
+    width: 30vw;
+}
+
+.conteudo.grande.absolute.bolinhas.mecanica {
+    z-index: 1;
+    left: 0;
+    top: 804vw;
+    width: 30vw;
+}
+
+.conteudo.grande.contato {
+    background-color: #023E8A;
+    
+}
+.conteudo.grande.paragrafo.branco.centro {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1.5vw;
+} 
+
+footer.grande {
+    background-color: #bebebe;
+    height: 5vw;
+    align-items: center;
+}
+
+.conteudo.grande.seta img {
+    max-width: 5vw;
+    position: fixed;
+    bottom: 5vw;
+    right: 5vw;
+    z-index: 10;
+}
+
+.conteudo.grande.fim {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2.5vw;
+
+
+}
+
+.conteudo.grande.rodape {
+    display: flex;
+    margin: auto;
+}
+
+.conteudo.grande.rodape a {
+    margin-left: 2vw;
+}
+
+.conteudo.grande.paragrafo.branco.extendido {
+    padding-bottom: 10vw;
+}
+
+.conteudo.grande.contato.claro {
+    background-color: #fff;   
+}
+
+
+
+.conteudo.grande.absolute.fotos.eletrica4 {
+    top: 210vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.eletrica3 {
+    top: 225vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.ti3 {
+    top: 530vw;
+    left: 30vw;
+    z-index: 8;    
+}
+
+.conteudo.grande.absolute.fotos.ti4 {
+    top: 545vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.logistica4 {
+    top: 850vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.logistica3 {
+    top: 865vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.mecanica3 {
+    top: 1170vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.mecanica4 {
+    top: 1185vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.grande.absolute.fotos.seguranca4 {
+    top: 1530vw;
+    left: 30vw;
+    z-index: 8;
+}
+
+.conteudo.grande.absolute.fotos.seguranca3 {
+    top: 1545vw;
+    left: 15vw;
+    z-index: 9;
+}
+
+.conteudo.grande.link-sobre.claro.bot-mec {
+    margin-bottom: 1.5vh;
+}
+
+.conteudo.grande.cursos.escuro{
+    background-color: #023E8A;
+    min-height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo.grande.container-fotos.azul3 {
+    min-height: 800px;
+    background: no-repeat bottom right;
+    background-image: url(img/icone/bola-azul2.png);
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo.grande.container-fotos.branco3 {
+    min-height: 800px;
+    background: no-repeat bottom left;
+    background-image: url(img/icone/bola-branca2.png);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.conteudo.grande.dark{
+    background-color: #023E8A;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo.grande.cursos.clarin {
+    min-height: 1400px;
+    width: 1024px;
+    margin: auto;
+}
+
+.conteudo.grande.quase_tudo {
+    width: 1024px;
+    margin: auto;
+}
+
+.conteudo.grande.paragrafo.centro {
+    text-align: center;
 }
 
 }
