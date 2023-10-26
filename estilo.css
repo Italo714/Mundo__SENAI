@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 480px) {
 
-body {
+body.pequeno {
     background-color: #FFF;
     color: #000;
 }
@@ -491,9 +491,9 @@ footer.pequeno {
       text-align: center;
   }
   
- @media only screen and (min-width: 481px) and (max-width: 1024px) {
+  @media only screen and (min-width: 481px) and (max-width: 1024px) {
   
-  body {
+  body.medio {
       background-color: #FFF;
       color: #000;
   }
@@ -536,8 +536,12 @@ footer.pequeno {
 
 /*---inicio--- medio*/
 
-.conteudo.medio.intro {
+.conteudo.medio.intro.suba {
     padding-top: 10%;
+}
+
+.conteudo.medio.intro {
+    min-height: 700px;
 }
 
 .conteudo.medio.container-tracos {
@@ -577,28 +581,25 @@ footer.pequeno {
 }
 
 .conteudo.medio.paragrafo.branco {
-    width: 70vw;
-    margin: auto;
-    font-size: 2.5vw;
-    margin-bottom: 5vw;
-    text-align: justify;
     color: #FFF;
 }
 
 .conteudo.medio.container-fotos.azul2 {
-    height: 60vh;
+    min-height: 800px;
     background: no-repeat bottom right;
     background-image: url(img/icone/bola-azul2.png);
     display: flex;
     justify-content: space-around;
+
 }
 
 .conteudo.medio.container-fotos.branco2 {
-    height: 60vh;
+    min-height: 800px;
     background: no-repeat bottom left;
     background-image: url(img/icone/bola-branca2.png);
     display: flex;
     justify-content: space-around;
+
 }
 
 .conteudo.medio.absolute {
@@ -607,16 +608,17 @@ footer.pequeno {
 
 .conteudo.medio.absolute.fotos {
     width: 50vw;
+    max-width: 400px;
 }
 
 .conteudo.medio.absolute.fotos.senai2 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;
 }
 
 .conteudo.medio.absolute.fotos.senai1 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
@@ -630,7 +632,7 @@ footer.pequeno {
 
 .conteudo.medio.container-links {
     background-color: #023E8A;
-    height: 85vw;
+    height: 85vh;
     border: #00f100;
 }
 
@@ -698,68 +700,68 @@ footer.pequeno {
 
 .conteudo.medio.fundo {
     background-color: #023E8A;
-    height: 100vh;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .conteudo.medio.absolute.fotos.eletrica2 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;
 }
 
 .conteudo.medio.absolute.fotos.eletrica1 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
 
 .conteudo.medio.absolute.fotos.ti1 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;    
 }
 
 .conteudo.medio.absolute.fotos.ti2 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
 
 .conteudo.medio.absolute.fotos.logistica2 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;
 }
 
 .conteudo.medio.absolute.fotos.logistica1 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
 
 .conteudo.medio.absolute.fotos.mecanica1 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;
 }
 
 .conteudo.medio.absolute.fotos.mecanica2 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
 
 .conteudo.medio.absolute.fotos.seguranca2 {
-    margin-top: 10%;
+    margin-top: 100px;
     margin-left: 10%;
     z-index: 8;
 }
 
 .conteudo.medio.absolute.fotos.seguranca1 {
-    margin-top: 20%;
+    margin-top: 150px;
     margin-right: 10%;
     z-index: 9;
 }
@@ -920,14 +922,14 @@ footer.medio {
 
 .conteudo.medio.cursos.escuro{
     background-color: #023E8A;
-    height: 240vh;
+    min-height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .conteudo.medio.container-fotos.azul3 {
-    height: 60vh;
+    min-height: 800px;
     background: no-repeat bottom right;
     background-image: url(img/icone/bola-azul2.png);
     display: flex;
@@ -935,7 +937,7 @@ footer.medio {
 }
 
 .conteudo.medio.container-fotos.branco3 {
-    height: 100vw;
+    min-height: 800px;
     background: no-repeat bottom left;
     background-image: url(img/icone/bola-branca2.png);
     display: flex;
@@ -949,6 +951,10 @@ footer.medio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.conteudo.medio.cursos.clarin {
+    min-height: 1400px;
 }
 
 }
